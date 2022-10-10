@@ -1,6 +1,6 @@
-div {
+/* div {
     background-color: aqua;
-}
+} */
 
 h1
 {
@@ -27,4 +27,15 @@ p {
 {
     margin: 0;
     padding: 0;
+}
+
+.red
+{
+    background-color: red;
+    color: #fff;
+}
+
+.blue
+{
+    color: #0000ff;
 }
