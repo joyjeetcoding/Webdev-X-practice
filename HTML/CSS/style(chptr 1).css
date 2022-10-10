@@ -1,0 +1,30 @@
+div {
+    background-color: aqua;
+}
+
+h1
+{
+    color: black;
+    background-color: brown;
+}
+
+p {
+    color: red;
+
+}
+
+#para1
+{
+    background-color: black;
+}
+
+#para2
+{
+    border: 4px solid black;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
