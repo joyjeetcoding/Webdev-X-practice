@@ -1,0 +1,35 @@
+/* Position : static (by default), absolute, relative, fixed */
+
+.box
+{
+    display: inline-block;
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+}
+
+.container
+{
+    background-color: khaki;
+    border: 2px solid red;
+    height: 3444px;
+}
+
+#box3
+{
+    /* position: absolute; */
+    /* position: relative; */
+    /* top: 34px;
+    left: 38px; */
+
+/* 
+    position: fixed;
+    bottom: 36px;
+    right: 4px; */
+
+
+
+    position: sticky;
+    top: 3px;
+}
