@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@900&family=Josefin+Sans&family=Kanit:wght@500&family=Playfair+Display+SC:wght@700&family=Roboto+Slab:wght@500;800&family=Shalimar&display=swap');
+
 *
 {
     padding: 0;
@@ -6,7 +8,7 @@
 
 .container
 {
-    background-image: url("photo-1622737133809-d95047b9e673.jpeg");
+    background-image: url(photo-1622737133809-d95047b9e673.jpeg);
     background-size: cover;
     width: 100%;
     background-position: cover;
@@ -15,12 +17,60 @@
 
 .navbar
 {
-    height: 1200px;
-    width: 75px;
+    width: 1200px;
+    height: 58px;
     margin: auto;
 }
 
 .logo
 {
-    
+    float: left;
+    width: 200px;
+    height: 70px;
+}
+
+.logoname
+{
+    color: white;
+    font-family: 'Cinzel', serif;
+    float: left;
+    font-size: 35px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.menu
+{
+    width: 100vh;
+    float: left;
+    /* height: 10; */
+}
+
+ul
+{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li
+{
+    margin-top: 20px;
+    margin-left: 45px;
+    list-style: none;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover
+{
+    color: chartreuse;
 }
