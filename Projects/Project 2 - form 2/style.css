@@ -1,0 +1,26 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    background-image: url("photo-1622737133809-d95047b9e673.jpeg");
+    background-size: cover;
+    width: 100%;
+    background-position: cover;
+    height: 100vh;
+}
+
+.navbar
+{
+    height: 1200px;
+    width: 75px;
+    margin: auto;
+}
+
+.logo
+{
+    
+}
