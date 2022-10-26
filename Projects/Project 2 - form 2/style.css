@@ -27,6 +27,7 @@
     float: left;
     width: 200px;
     height: 70px;
+    margin-top: 23px;
 }
 
 .logoname
@@ -39,19 +40,13 @@
     padding-top: 10px;
 }
 
-.menu
-{
-    width: 100vh;
-    float: left;
-    /* height: 10; */
-}
-
 ul
 {
     float: right;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 23px;
 }
 
 ul li
@@ -73,4 +68,98 @@ ul li a
 ul li a:hover
 {
     color: chartreuse;
+}
+
+.form
+{
+    margin-top: 15%;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: -25px;
+    left: 870px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.form h2
+{
+    color: aliceblue;
+    text-align: center;
+    font-family: "Playfair Display SC";
+    color: aqua;
+    background-color: darkgreen;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 8px;
+}
+
+.form input
+{
+    width: 248px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid aqua;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: darkgreen;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.form:focus
+{
+    outline: none;
+}
+
+::placeholder
+{
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn
+{
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 33%;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    color: aqua;
+    background-color: darkgreen;
+}
+
+.form .link
+{
+    margin-top: 2px;
+    font-family: 'Roboto Slab', serif;
+    
+    color: aqua;
+
+}
+
+.form a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.form a:hover
+{
+    color: aqua;
+}
+
+.liw
+{
+    color: #fff;
 }
