@@ -4,14 +4,15 @@
 {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .container
 {
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(wallpapersden.com_cool-red-mountains-4k_1600x900.jpg);
     background-size: cover;
-    width: 100%;
-    background-position: cover;
+    width: 100vw;
+    background-position: bottom;
     height: 100vh;
 }
 
