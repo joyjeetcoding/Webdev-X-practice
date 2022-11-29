@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using JS</title>
+</head>
+    <style>
+        #btn
+        {
+            padding: 10px 14px;
+            background-color: red;
+            border-radius: 20px;
+            color: #fff;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+    </style>
+<body>
+    <div class="container">
+        <h1>Para</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatum eos suscipit enim molestiae libero consequuntur at nihil sunt fuga? Inventore labore illo tenetur minima modi voluptatibus totam, eligendi esse. Odio earum in nobis voluptatem autem. Consequatur tenetur libero nihil sapiente. Id vero porro accusantium quisquam laborum enim, velit neque dolorem facilis necessitatibus esse libero facere ab ipsa exercitationem suscipit odit mollitia modi, earum asperiores, eligendi quia vel blanditiis debitis! Officiis assumenda, aliquam cum quidem excepturi obcaecati et praesentium, omnis totam velit odio saepe quibusdam a veniam maxime possimus consequatur nemo. Ratione reiciendis voluptate veritatis natus corrupti officia soluta quo at eligendi, ducimus repellat nemo accusantium maiores eveniet, nobis esse temporibus quod cumque quis. Omnis veniam inventore nemo. A quaerat assumenda veritatis porro perferendis ipsa iusto nostrum, vero optio hic amet molestias blanditiis quae aspernatur nesciunt. Accusantium praesentium corrupti quaerat saepe culpa deleniti est minima dolorum eum quae eligendi perspiciatis totam, qui iste optio natus impedit a asperiores voluptas quidem fugiat quos velit eius quod? Adipisci, sed. Amet, eos. Sequi magni totam, quia suscipit mollitia architecto recusandae nobis ea unde facere veritatis ex ipsa quaerat id. Similique corporis minima ipsum minus voluptatibus quis, dignissimos modi voluptatum, maiores consequuntur et perferendis provident a dolorem harum nulla tempore dolore accusantium, accusamus non. Labore esse at repellat doloribus molestiae, quas qui soluta porro et eius ratione, culpa hic sint ullam consequatur? Ratione, aut eligendi accusamus cum aliquid, placeat quae autem odit eaque minima blanditiis ex vel, incidunt velit. Maxime beatae quam repellat sequi.</p>
+    </div>
+        <button id="btn" onclick="togglehide()">Click Me!!!</button>
+        <script>
+            function togglehide()
+            {
+                let btn = document.getElementById('btn');
+                let para = document.getElementById('para');
+
+                if(para.style.display != 'none')
+                {
+                    para.style.display = 'none';
+                }
+                else
+                {
+                    para.style.display = 'block';
+                }
+            }
+        </script>
+</body>
+</html>
