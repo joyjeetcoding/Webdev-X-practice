@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Timeout & clearTimeOut</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="font-size: 50px;">Hii</h1>
+    </div>
+    <script>
+        function greet(name, byeText)
+        {
+            console.log("Hello Good Morning " + name + " " + byeText);
+        }
+
+        // timeOut = setTimeout(greet, 5000, "Joy", " Take Care");
+        // console.log(timeOut);
+
+        // clearTimeout(timeOut);
+
+        intervalId = setInterval(greet, 1000, "Joy", "Good Night");
+
+        setInterval(intervalId);
+
+        clearInterval(intervalId);
+
+    </script>
+</body>
+</html>
